@@ -1,35 +1,18 @@
-# streamlit-chat
-
-A simple and extensible chat interface built with **Streamlit**.
-
-## 🚀 Features
-
-* Lightweight chat UI
-* **User authorization before chatting**
-* **Save and load chat data**
-* Stores chat history in session state
-* Easy to extend with any AI or backend API
-
-## 🧰 Requirements
-
-* Python 3.x
-* Streamlit
-* Other dependencies in `requirements.txt`
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/Khoan-IT/streamlit-chat.git
-cd streamlit-chat
-pip install -r requirements.txt
-```
-
-
-## 🛠️ Customization
-
-Edit `*.py` to:
-
-* Change UI elements (titles, avatars, layout)
-* Integrate with AI APIs (e.g., OpenAI, Hugging Face)
-* Modify authorization logic or data storage
-* Save chat logs to a file or database
+1.Thông tin sinh viên
+    Họ và tên: Nguyễn Khánh Đăng
+    Mã số sinh viên: 24120171
+    Lớp: 24CTT3
+    Khoa: Công nghệ Thông tin - ĐH Khoa học Tự nhiên TP.HCM
+2.Tính năng chính
+    Xác thực người dùng: Đăng ký, Đăng nhập/Đăng xuất bằng Firebase Authentication (Email/Password & Google Login).
+    Quản lý Task: Thêm công việc mới kèm mô tả và hạn chót (Deadline).
+    Cập nhật: Đánh dấu hoàn thành công việc ngay trên giao diện.
+    Xóa: Loại bỏ các công việc không còn cần thiết.
+    Lưu trữ: Dữ liệu được đồng bộ hóa thời gian thực trên Cloud Firestore theo từng tài khoản riêng biệt.
+3.Hướng dẫn cài đặt thư viện.
+    pip install -r requirements.txt
+4.Cách chạy ứng dụng
+    Mở một terminal và chạy lệnh: uvicorn backend.app.main:app --reload
+        API sẽ khả dụng tại: http://127.0.0.1:8000
+    Mở một terminal khác và chạy lệnh: streamlit run frontend/app.py
+        Ứng dụng sẽ tự động mở tại: http://localhost:8501
