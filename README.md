@@ -16,3 +16,10 @@
         API sẽ khả dụng tại: http://127.0.0.1:8000
     Mở một terminal khác và chạy lệnh: streamlit run frontend/app.py
         Ứng dụng sẽ tự động mở tại: http://localhost:8501
+
+https://github.com/user-attachments/assets/015e1080-12e9-4005-9b9f-f2f6eba357ff
+
+
+
+
+
